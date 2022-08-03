@@ -9,5 +9,5 @@ void main()
     else if (a < 0)
         printf("%d is negative.");
     else
-        printf("%d is neither positive nor negative.", a)
+        printf("%d is neither positive nor negative.", a);
 }
