@@ -7,7 +7,6 @@ void main()
     char ch[100], data[100];
     printf("Enter contents to add in file: ");
     gets(ch);
-    // scanf("%s", &ch);
     fp = fopen("out.txt", "w");
     fprintf(fp, "%s", ch);
     fclose(fp);
