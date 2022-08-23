@@ -41,8 +41,5 @@ int main(void)
     printf("_________________________________\n");
 
     for (i = 0; i < n; i++)
-    {
-        printf("Name    :    %s    MARK    : %f     RANK    :    %d", stu[i].name, stu[i].total_mark, i + 1);
-        printf("\n");
-    }
+        printf("Name    :    %s    MARK    : %f     RANK    :    %d\n", stu[i].name, stu[i].total_mark, i + 1);
 }
